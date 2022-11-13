@@ -3,14 +3,15 @@ package Lab2;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class MainApp {
     public static final File inFile
-            = new File("/Users/allamosina/IdeaProjects/labs-allamosina/src/Lab2/input.txt");
+            = new File("./src/Lab2/input.txt");
     public static final File outFile
-            = new File("/Users/allamosina/IdeaProjects/labs-allamosina/src/Lab2/output.txt");
+            = new File("./src/Lab2/output.txt");
 
     public static void main(String[] args) {
         try {
@@ -38,6 +39,8 @@ public class MainApp {
             return scanner.nextInt();
         } catch (FileNotFoundException e) {
             throw new NoFileOrAccessException("Problems finding or accessing file!");
+        } catch (InputMismatchException e) {
+            throw new InputMismatchException("Input must be an integer");
         } catch (NoSuchElementException e) {
             throw new NoSuchElementException("Empty file or wrong data!");
         }
