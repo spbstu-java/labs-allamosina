@@ -1,0 +1,25 @@
+I have a younger brother. He just started high school. He is 14 and lives with my parents.
+They live on Mulberry Street in Boston. Sometimes they visit me in New York. I am happy when they visit.
+My Mom always brings me sweets and candy when they come. I really miss them, too!
+
+The Collection in Java is a framework that provides an architecture to store and manipulate the group of objects.
+Java Collections can achieve all the operations that you perform on a data such as searching, sorting, insertion,
+manipulation, and deletion.
+Java Collection means a single unit of objects. Java Collection framework provides many interfaces
+(Set, List, Queue, Deque) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
+
+English texts for beginners to practice reading and comprehension online and for free.
+Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar
+and word order. The texts below are designed to help you develop while giving you an
+instant evaluation of your progress.
+
+Hi! Nice to meet you! My name is John Smith. I am 19 and a student in college.
+I go to college in New York. My favorite courses are Geometry, French, and History.
+English is my hardest course. My professors are very friendly and smart. It’s my second year in college now. I love it!
+
+I live in a big house on Ivy Street. It’s near the college campus. I share the house with three other students.
+Their names are Bill, Tony, and Paul. We help each other with homework. On the weekend, we play football together.
+
+
+
+
