@@ -76,7 +76,7 @@ public class StreamAPI {
 
     //метод, принимающий на вход коллекцию строк и возвращающий все строки,
     // начинающиеся с заданной буквы, отсортированные по алфавиту;
-    private static List<String> getFromLetterSorted(List<String> listStr, String letter) {
+    private static List<String> getFromLetterSorted(Collection<String> listStr, String letter) {
         return listStr.stream()
                 .filter(s -> s.substring(0, 1).toLowerCase().equals(letter))
                 .map(String::toLowerCase)
